@@ -1,0 +1,101 @@
+$primary-color  : #6504b5;
+$secondary-color:#EFEEF1;
+$thired-color   :#4D4751;
+$main-font      :'Poppins',
+sans-serif;
+
+
+
+header {
+    #top {
+        background-color: $secondary-color;
+        border-bottom   : 1px solid gainsboro;
+
+        .purina {
+            .purina-logo {
+                img {
+                    width: 70px;
+                }
+            }
+
+            span {
+                font-size     : 8px;
+                font-weight   : bold;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                white-space   : nowrap;
+            }
+        }
+
+
+        a {
+            text-decoration: none;
+            color          : black;
+            font-family    : $main-font;
+            font-size      : 14px;
+            font-weight    : 300;
+
+
+            span {
+                color          : $primary-color;
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+
+    nav {
+        background-color: $secondary-color;
+
+        .petfinder-logo {
+            img {
+                width: 130px;
+            }
+        }
+
+        .main-navigation {
+            li {
+                list-style    : none;
+                font-weight   : 700;
+                font-family   : $main-font;
+                text-transform: uppercase;
+                padding       : 5px 40px 5px 0px;
+
+                a {
+                    text-decoration: none;
+                    color          : $thired-color;
+
+                    &:checked {
+                        color: red;
+                    }
+                }
+
+                span {
+                    padding: 0 8px;
+                }
+
+            }
+        }
+
+        .profile-navigation {
+           // white-space:nowrap;
+           float:right;
+            span {
+                color      : $thired-color;
+                font-weight: 500;
+                font-family: $main-font;
+                padding    : 0 0 0 25px;
+
+            }
+
+            .icon {
+                font-size   : 25px;
+                border-right: 1px solid rgb(216, 216, 216);
+                padding     : 15px;
+
+            }
+        }
+    }
+
+}
