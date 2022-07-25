@@ -24,39 +24,61 @@ header #top a span {
   text-decoration: underline;
 }
 header nav {
+  position: relative;
+}
+header nav .top-nav {
   background-color: #EFEEF1;
 }
-header nav .petfinder-logo img {
+header nav .top-nav .petfinder-logo img {
   width: 130px;
 }
-header nav .main-navigation li {
+header nav .top-nav .main-navigation li {
   list-style: none;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   padding: 5px 40px 5px 0px;
 }
-header nav .main-navigation li a {
+header nav .top-nav .main-navigation li a {
   text-decoration: none;
   color: #4D4751;
 }
-header nav .main-navigation li a:checked {
+header nav .top-nav .main-navigation li a:checked {
   color: red;
 }
-header nav .main-navigation li span {
+header nav .top-nav .main-navigation li span {
   padding: 0 8px;
 }
-header nav .profile-navigation {
+header nav .top-nav .profile-navigation {
   float: right;
 }
-header nav .profile-navigation span {
+header nav .top-nav .profile-navigation span {
   color: #4D4751;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   padding: 0 0 0 25px;
 }
-header nav .profile-navigation .icon {
+header nav .top-nav .profile-navigation .icon {
   font-size: 25px;
   border-right: 1px solid rgb(216, 216, 216);
   padding: 15px;
+}
+header nav .buttom-nav {
+  color: white;
+  background-color: #6504b5;
+  position: absolute;
+  width: 100vw;
+}
+header nav .buttom-nav .breed-menu,
+header nav .buttom-nav .resource-menu {
+  display: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: "Poppins", sans-serif;
+  font-weight: 300;
+}
+header nav .buttom-nav .breed-menu li,
+header nav .buttom-nav .resource-menu li {
+  list-style: none;
+  margin: 0 20px;
 }

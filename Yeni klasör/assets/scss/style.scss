@@ -1,3 +1,5 @@
+
+
 $primary-color  : #6504b5;
 $secondary-color:#EFEEF1;
 $thired-color   :#4D4751;
@@ -46,54 +48,83 @@ header {
 
 
     nav {
-        background-color: $secondary-color;
+        position: relative;
 
-        .petfinder-logo {
-            img {
-                width: 130px;
-            }
-        }
+        .top-nav {
+            background-color: $secondary-color;
 
-        .main-navigation {
-            li {
-                list-style    : none;
-                font-weight   : 700;
-                font-family   : $main-font;
-                text-transform: uppercase;
-                padding       : 5px 40px 5px 0px;
-
-                a {
-                    text-decoration: none;
-                    color          : $thired-color;
-
-                    &:checked {
-                        color: red;
-                    }
+            .petfinder-logo {
+                img {
+                    width: 130px;
                 }
+            }
+
+            .main-navigation {
+                li {
+                    list-style    : none;
+                    font-weight   : 700;
+                    font-family   : $main-font;
+                    text-transform: uppercase;
+                    padding       : 5px 40px 5px 0px;
+
+                    a {
+                        text-decoration: none;
+                        color          : $thired-color;
+
+                        &:checked {
+                            color: red;
+                        }
+                    }
+
+                    span {
+                        padding: 0 8px;
+                    }
+
+                }
+            }
+
+            .profile-navigation {
+                // white-space:nowrap;
+                float: right;
 
                 span {
-                    padding: 0 8px;
+                    color      : $thired-color;
+                    font-weight: 500;
+                    font-family: $main-font;
+                    padding    : 0 0 0 25px;
+
                 }
 
+                .icon {
+                    font-size   : 25px;
+                    border-right: 1px solid rgb(216, 216, 216);
+                    padding     : 15px;
+
+                }
             }
+
+
+
         }
 
-        .profile-navigation {
-           // white-space:nowrap;
-           float:right;
-            span {
-                color      : $thired-color;
-                font-weight: 500;
-                font-family: $main-font;
-                padding    : 0 0 0 25px;
+        .buttom-nav {
+            color           : white;
+            background-color: $primary-color;
+            position        : absolute;
+            width           : 100vw;
 
-            }
+            .breed-menu,
+            .resource-menu {
+                display       : none;
+                text-align    : center;
+                text-transform: uppercase;
+                font-style    : $main-font;
+                font-weight: 300;
 
-            .icon {
-                font-size   : 25px;
-                border-right: 1px solid rgb(216, 216, 216);
-                padding     : 15px;
-
+                li {
+                    list-style: none;
+                    margin    : 0 20px;
+                }
             }
         }
     }
