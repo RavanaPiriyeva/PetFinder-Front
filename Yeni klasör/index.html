@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-10">
+                    <div class="col-10 d-none d-lg-block">
                         <div>
                             <a href="#" class="float-end">
                                 Purina və Petfinderin birlikdə necə fərqliliklər yaratdığı haqqında <span>daha çox
@@ -47,9 +47,9 @@
         <!--Navbar Start-->
         <nav>
             <div class="top-nav py-3 ">
-                <div class="container">
-                    <div class="row justify-content-between px-5">
-                        <div class="col-lg-2 col-6">
+                <div class="container-lg">
+                    <div class="row justify-content-between ">
+                        <div class="col-lg-2 col-2">
                             <div class="petfinder-logo">
                                 <img src="./assets/img/Petfinder_logo.png" alt="petfinder-logo">
                             </div>
@@ -64,8 +64,10 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-6">
-                            <div class="profile-navigation"> <span class="icon"><i class="fa-solid fa-heart"></i></span>
+                        <div class="col-lg-4 col-4">
+                            <div class="profile-navigation text-nowrap"> <span class="icon"><i
+                                        class="fa-solid fa-heart px-3"></i> <i
+                                        class="fa-solid fa-bars d-lg-none"></i></span>
                                 <span>Qeydiyyat</span>
                                 <span>Giriş</span>
                             </div>
@@ -81,13 +83,15 @@
                         <div class="col-12">
                             <div class="breed-menu  ">
                                 <ul class="d-flex justify-content-center m-0 ">
-                                    <li class="pb-2 pt-3"><a href="#" class="text-light"><img src="./assets/img/dog.png" alt="dogimg" class="mx-3"> İt</a></li>
-                                    <li class="pb-2 pt-3"><a href="#" class="text-light">Pişik <img src="./assets/img/cat.png" alt="catimg" class="mx-3"></a>  </li>
+                                    <li class="pb-2 pt-3"><a href="#" class="text-light"><img src="./assets/img/dog.png"
+                                                alt="dogimg" class="mx-3"> İt</a></li>
+                                    <li class="pb-2 pt-3"><a href="#" class="text-light">Pişik <img
+                                                src="./assets/img/cat.png" alt="catimg" class="mx-3"></a> </li>
                                 </ul>
                             </div>
                             <div class="resource-menu py-3">
                                 <ul class="d-flex justify-content-between m-0">
-                                    <li>Heyvan himayəsi haqqında
+                                    <li><a href="#" class="text-light">Heyvan himayəsi haqqında</a>
                                         <ul>
                                             <li>İt sahiblənmə</li>
                                             <li>Pişik sahiblənmə</li>
@@ -95,11 +99,46 @@
                                             <li>Ev heyvanlarının qəbulu haqqında</li>
                                         </ul>
                                     </li>
-                                    <li>İt</li>
-                                    <li>Pişik</li>
-                                    <li>Sığınacaqlar</li>
-                                    <li>Heyvanlara kömək</li>
-                                    <li>Videolar</li>
+                                    <li><a href="#" class="text-light">İt</a>
+                                        <ul>
+                                            <li>İt sahiblənmə</li>
+                                            <li>İt növləri</li>
+                                            <li>İtlərin qidalanması</li>
+                                            <li>İtlərin təlimi</li>
+                                            <li>Problemlər</li>
+                                            <li>İtlərə qulluq</li>
+                                            <li>Heyvanların videolar</li>
+                                        </ul>
+                                    </li>
+                                    <li> <a href="#" class="text-light">Pişik</a>
+                                        <ul>
+                                            <li>Pişik sahiblənmə</li>
+                                            <li>Pişik növləri</li>
+                                            <li>Pişiklərin qidalanması</li>
+                                            <li>Pişiklərin təlimi</li>
+                                            <li>Problemlər</li>
+                                            <li>Pişiklərə qulluq</li>
+                                            <li>Heyvanların videolar</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="text-light">Sığınacaqlar</a>
+                                        <ul>
+                                            <li>Heyavan sığınacaqları</li>
+                                            <li>Heyvan sığınacaqlarının yaradılması</li>
+                                            <li>İtləri tərbiyə etmək</li>
+                                            <li>Pişikləri tərbiyə etmək</li>
+                                            <li>Könülülük</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="text-light">Heyvanlara kömək</a>
+                                        <ul>
+                                            <li>İşə cəlb olun</li>
+                                            <li>Blogumuzu oxuyun</li>
+                                            <li>Petfinderi sayıtınızda bölüşün</li>
+                                            <li>Petfinder fondu</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" class="text-light">Videolar</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -108,11 +147,68 @@
             </div>
         </nav>
         <!--Navbar End-->
-<!--Hero start-->
-<section id="hero">
-<img src="./assets/img/1140 hero image_0.jpg" alt="heroimg">
-</section>
-<!--Hero end-->
+        <!--Hero start-->
+        <section id="hero">
+
+            <div class="hero-inner">
+                <img src="./assets/img/1140 hero image_0.jpg" alt="hero-img">
+                <div class="hero-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-xl-8 ">
+
+                                <div class="search-box d-flex align-items-center">
+                                    <input type="search" name="" id="" placeholder="Ev heyvanları axtar">
+                                    <span>|</span>
+                                    <input type="search" name="" id="" placeholder="Şəhər və Rayonlara görə axtar">
+                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                            </div>
+                            <!-- <div class="col-3">
+    <span>slam</span>
+                            </div> -->
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8">
+                                <div class="title text-center  mt-4 pt-4 ">
+                                    <p class="fs-1 fw-bold mb-0">Ən yaxşı yeni dostlarını tap</p>
+                                    <p class="fs-4 mt-0">Ev heyvanını bizim web səyifədə axtar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-6 col-md-3 col-lg-2 p-2">
+                                <div class="hero-card text-center">
+                                    <img src="./assets/img/dog2.png" alt="dog-img">
+                                    <p class="fs-5">İtlər</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2 p-2">
+                                <div class="hero-card text-center">
+                                    <img src="./assets/img/dog2.png" alt="dog-img">
+                                    <p class="fs-5">İtlər</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2 p-2">
+                                <div class="hero-card text-center">
+                                    <img src="./assets/img/dog2.png" alt="dog-img">
+                                    <p class="fs-5">İtlər</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-lg-2 p-2">
+                                <div class="hero-card text-center">
+                                    <img src="./assets/img/dog2.png" alt="dog-img">
+                                    <p class="fs-5">İtlər</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!--Hero end-->
     </header>
     <!--Header End-->
 
