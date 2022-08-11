@@ -2,9 +2,9 @@ var breed = document.querySelector(".breeds")
 var resource = document.querySelector(".resource")
 var breedMenu = document.querySelector(".breed-menu")
 var resourceMenu = document.querySelector(".resource-menu")
-
-
-
+// var heroCards = document.querySelector(".hero-cards")
+// let x= heroCards.scrollHeight
+// console.log(x)
 function openBreedMenu() {
     if (breedMenu.style.display == "block") {
         breedMenu.style.display = "none"

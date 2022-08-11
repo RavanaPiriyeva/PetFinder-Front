@@ -127,19 +127,40 @@ header nav .buttom-nav .breed-menu li:hover ul,
 header nav .buttom-nav .resource-menu li:hover ul {
   max-height: 500px;
 }
-header #hero img {
-  width: 100%;
-  height: 60vh;
-  object-fit: cover;
-  filter: brightness(70%);
-  border-bottom: 8px solid #6504b5;
+header #hero {
+  background-color: rgb(230, 230, 230);
 }
 header #hero .hero-inner {
-  position: relative;
+  background-color: rgb(230, 230, 230);
+}
+@media (max-width: 768px) {
+  header #hero .hero-inner {
+    height: calc(40vh + 450px);
+  }
+}
+@media (max-width: 450px) {
+  header #hero .hero-inner {
+    height: calc(30vh + 450px);
+  }
+}
+@media (min-width: 768px) {
+  header #hero .hero-inner {
+    height: calc(15vh + 450px);
+  }
+}
+@media (min-width: 800px) {
+  header #hero .hero-inner {
+    height: calc(10vh + 450px);
+  }
 }
 header #hero .hero-inner .hero-body {
-  position: relative;
-  bottom: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../img/1140\ hero\ image_0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  margin-bottom: 5px;
+  border-bottom: 8px solid #6504b5;
   font-family: "Montserrat", sans-serif;
 }
 header #hero .hero-inner .hero-body .search-box {
@@ -152,7 +173,7 @@ header #hero .hero-inner .hero-body .search-box span {
   color: #4D4751;
 }
 header #hero .hero-inner .hero-body .search-box input {
-  width: 47%;
+  width: 45%;
   border: none;
   height: 60px;
   padding: 15px;
@@ -181,14 +202,94 @@ header #hero .hero-inner .hero-body .hero-card {
   background-color: white;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
+  transition: all 1s;
+  color: #4D4751;
 }
 header #hero .hero-inner .hero-body .hero-card img {
   max-width: 100%;
   width: auto;
   height: auto;
-  border: none;
+  border: transparent;
 }
 header #hero .hero-inner .hero-body .hero-card:hover {
   border: 1px solid #6504b5;
-  background-color: rgb(247, 240, 240);
+  background-color: rgb(228, 222, 222);
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+}
+main #animal {
+  background-color: rgb(230, 230, 230);
+}
+main #animal .animal-title a {
+  color: #6504b5;
+  font-weight: 600;
+}
+main #animal .animal-box-little {
+  color: #6504b5;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 1s;
+}
+main #animal .animal-box-little img {
+  transition: all 1s;
+}
+main #animal .animal-box-little .pet-img {
+  width: 100%;
+  overflow: hidden;
+}
+main #animal .animal-box-little p {
+  background-color: white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative;
+  bottom: 25px;
+  transition: all 1s;
+}
+main #animal .animal-box-little:hover {
+  background-color: #6504b5;
+}
+main #animal .animal-box-little:hover p {
+  background-color: #6504b5;
+  color: white;
+  color: white;
+}
+main #animal .animal-box-little:hover img {
+  opacity: 0.5;
+}
+main #animal .more-box {
+  background-color: #6504b5;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #6504b5;
+  overflow: hidden;
+}
+main #animal .more-box p:last-child {
+  border-top: 1px solid black;
+  transition: all 1s;
+}
+main #animal .more-box:hover p:last-child {
+  background-color: #EFEEF1;
+  color: #6504b5;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+main #plan h2 {
+  color: #4D4751;
+}
+main #plan .plan-card h4, main #plan .plan-card a {
+  color: rgb(13, 13, 82);
+}
+main #plan .plan-card a {
+  border: 2px solid rgb(170, 231, 250);
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+main #plan .plan-card a:hover {
+  color: white;
+  background-color: rgb(170, 231, 250);
 }
