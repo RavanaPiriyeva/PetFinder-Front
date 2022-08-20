@@ -2,6 +2,10 @@ var breed = document.querySelector(".breeds")
 var resource = document.querySelector(".resource")
 var breedMenu = document.querySelector(".breed-menu")
 var resourceMenu = document.querySelector(".resource-menu")
+var list = document.querySelector("datalist")
+var passwordIcon = document.querySelectorAll("#password-icon")
+var password = document.querySelectorAll("#password")
+
 // var heroCards = document.querySelector(".hero-cards")
 // let x= heroCards.scrollHeight
 // console.log(x)
@@ -43,5 +47,22 @@ function openResourceMenu() {
         resource.querySelector('i').classList.add("fa-angle-up")
     }
 }
+
+
+      
+   passwordIcon.forEach(element => {
+    element.addEventListener('click',()=>{
+        element.querySelector("i").classList.toggle("fa-eye");
+        if (element.previousSibling.type === "password") {
+            element.previousSibling.type = "text";
+          } else {
+            element.previousSibling.type = "password";
+          }
+        element.querySelector("i").classList.toggle("fa-eye-slash");
+       
+    })
+    
+   });
+
 breed.onclick = function () { openBreedMenu() };
 resource.onclick = function () { openResourceMenu() }
