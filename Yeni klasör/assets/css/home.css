@@ -79,7 +79,6 @@ header nav .buttom-nav .breed-menu li {
 }
 header nav .buttom-nav .breed-menu,
 header nav .buttom-nav .resource-menu {
-  display: none;
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;

@@ -1,0 +1,282 @@
+#animal-detail {
+    font-family        : $jura-font;
+    background-image   : linear-gradient(rgba(5, 4, 4, 0.39),
+            rgba(0, 0, 0, 0.075)), url("../img/animal.png");
+
+    .carousel-item {
+        height          : 50vh;
+        background-color: black;
+
+        img {
+            height     : 100%;
+            //max-width: 100%;
+            object-fit : contain;
+            display    : inline;
+            margin     : auto;
+        }
+    }
+
+    .animal-detail-inner {
+        background-color: #6b06ee8c;
+        color           : #f7f7f7;
+        border-radius   : 20px;
+        box-shadow      : 0px 0px 28px grey;
+
+        h1,
+        h2 {
+            position: relative;
+            display : inline;
+
+        }
+
+        h1::before,
+        h2::before {
+            content         : "";
+            height          : 3px;
+            position        : absolute;
+            width           : 100%;
+            bottom          : -5px;
+            background-color: #d4851e;
+            border-radius   : 2px;
+        }
+
+    }
+
+    .like-box {
+        background-color: #6a06ee69;
+        color           : $primary-color;
+        border-radius   : 20px;
+        box-shadow      : 0px 0px 28px grey;
+
+        span {
+            font-size: 50px;
+        }
+    }
+
+    .shelter-box {
+        position        : relative;
+        background-color: #9358df67;
+        color           : white;
+        border-radius   : 20px;
+        box-shadow      : 0px 0px 28px grey;
+        margin          : 70px 0;
+        font-weight     : 600;
+        font-size       : 22px;
+
+        .img {
+            position        : absolute;
+            border          : 4px solid white;
+            background-color: $primary-color;
+            border-radius   : 50px;
+            box-shadow      : 0 0 28px grey;
+            left            : 50%;
+            top             : 0px;
+            transform       : translate(-50%, -50%);
+        }
+
+        span {
+            color    : $primary-color;
+            font-size: 25px;
+
+        }
+    }
+    
+}
+
+#related-animal {
+    font-family        : $jura-font;
+    .related-animal-inner{
+        box-shadow      : 0px 0px 28px rgba(122, 119, 119, 0.404);
+        background-color: #6504b542;
+        border-radius   : 10px;
+    a{
+    color: $primary-color;
+    }
+        .animal-box {
+            color           : $primary-color;
+            font-weight     : 600;
+            background-color: white;
+            border-radius   : 10px;
+            overflow        : hidden;
+            transition      : all 1s;
+            position        : relative;
+    
+            img {
+                transition: all 1s;
+               width: 100%;
+                object-fit: cover;
+            }
+    
+    
+            .pet-img {
+                width   : 100%;
+                overflow: hidden;
+            }
+    
+            p {
+                background-color       : white;
+                border-top-left-radius : 50%;
+                border-top-right-radius: 50%;
+                position               : relative;
+                bottom                 : 25px;
+                transition             : all 1s;
+            }
+    
+            &:hover {
+                background-color: $primary-color;
+    
+                p {
+                    background-color: $primary-color;
+                    color           : white;
+                    color           : white;
+    
+                }
+    
+                img {
+                    opacity: 0.5;
+                }
+            }
+    
+            span {
+                width        : 45px;
+                height       : 40px;
+                position     : absolute;
+                top          : 10px;
+                right        : 10px;
+                font-size    : 30px;
+                border-radius: 50px;
+            }
+        }
+    }
+    
+}
+
+#releted-article-shelter{
+    font-family        : $jura-font;
+    background-color: rgb(241, 236, 236);
+    h1{
+        color: $primary-color;
+    }
+    .article-card {
+
+        background-color: white;
+        color           : $thired-color;
+        border-radius   : 20px;
+        overflow        : hidden;
+
+        .big-img {
+            position: relative;
+
+            &::before {
+                content                : " ";
+                height                 : 50px;
+                color                  : white;
+                background-color       : white;
+                width                  : 50%;
+                position               : absolute;
+                left                   : 0;
+                bottom                 : 0;
+                border-top-left-radius : 0%;
+                border-top-right-radius: 100%;
+                transition             : all 1s;
+
+            }
+
+            &::after {
+                content                : " ";
+                height                 : 50px;
+                color                  : white;
+                background-color       : white;
+                width                  : 50%;
+                position               : absolute;
+                right                  : 0;
+                bottom                 : 0;
+                border-top-left-radius : 100%;
+                border-top-right-radius: 0%;
+                //  z-index: 0;
+                transition             : all 1s;
+
+            }
+
+            img {
+                width     : 100%;
+                height    : 20%;
+                object-fit: cover;
+            }
+        }
+
+        .little-img {
+            position     : absolute;
+            overflow     : hidden;
+            left         : 50%;
+            transform    : translate(-50%);
+            bottom       : -25px;
+            border       : 6px solid white;
+            border-radius: 50%;
+            z-index      : 1;
+            transition   : all 1s;
+
+            img {
+                object-fit     : cover;
+                width          : 100px;
+                height         : 100px;
+                object-position: center;
+                overflow       : hidden;
+
+
+            }
+        }
+
+        .article-text {
+            p:last-child {
+                border-top    : 1px solid $thired-color;
+                text-transform: uppercase;
+                font-weight   : 600;
+                transition    : all 1s;
+            }
+        }
+
+        &:hover {
+            .big-img {
+                &::before {
+                    content                : " ";
+                    height                 : 50px;
+                    color                  : white;
+                    background-color       : white;
+                    width                  : 50%;
+                    position               : absolute;
+                    left                   : 0;
+                    bottom                 : 0;
+                    border-top-left-radius : 100%;
+                    border-top-right-radius: 0;
+
+                }
+
+                &::after {
+                    content                : " ";
+                    height                 : 50px;
+                    color                  : white;
+                    background-color       : white;
+                    width                  : 50%;
+                    position               : absolute;
+                    right                  : 0;
+                    bottom                 : 0;
+                    border-top-left-radius : 0;
+                    border-top-right-radius: 100%;
+                    //  z-index: 0;
+
+                }
+
+                .little-img {
+                    bottom: 0;
+                }
+
+            }
+
+            p:last-child {
+                background-color: $primary-color;
+                color           : white;
+            }
+        }
+    }
+}

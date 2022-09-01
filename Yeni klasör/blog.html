@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFinder</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/petfinder-logo-D1913C04F6-seeklogo.com.png">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Petfinder | Giriş</title>
 </head>
 
 <body>
@@ -52,6 +53,7 @@
                             <div class="petfinder-logo">
                                 <a href="./home.html"><img src="./assets/img/Petfinder_logo.png"
                                         alt="petfinder-logo"></a>
+
                             </div>
                         </div>
                         <div class="col-lg-6 mb-0 d-lg-block d-none">
@@ -99,15 +101,15 @@
                                 <ul class="d-flex justify-content-between m-0 px-0">
                                     <li><a href="#" class="text-light">Heyvan himayəsi haqqında</a>
                                         <ul>
-                                            <li><a href="#">İt sahiblənmə</a></li>
-                                            <li><a href="#">Pişik sahiblənmə</a></li>
+                                            <li><a href="./animal.html">İt sahiblənmə</a></li>
+                                            <li><a href="./animal.html">Pişik sahiblənmə</a></li>
                                             <li><a href="#">Sahiblənmiş heyvanların hekayələri</a></li>
                                             <li><a href="#">Ev heyvanlarının qəbulu haqqında</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#" class="text-light">İt</a>
                                         <ul>
-                                            <li><a href="#"> İt sahiblənmə</a></li>
+                                            <li><a href="./animal.html"> İt sahiblənmə</a></li>
                                             <li><a href="#"> İt növləri</a>
                                             <li><a href="#"> İtlərin qidalanması</a></li>
                                             <li><a href="#"> İtlərin təlimi</a></li>
@@ -118,7 +120,7 @@
                                     </li>
                                     <li> <a href="#" class="text-light">Pişik</a>
                                         <ul>
-                                            <li> <a href="#"> Pişik sahiblənmə</a></li>
+                                            <li> <a href="./animal.html"> Pişik sahiblənmə</a></li>
                                             <li> <a href="#"> Pişik növləri</a></li>
                                             <li> <a href="#"> Pişiklərin qidalanması</a></li>
                                             <li> <a href="#">Pişiklərin təlimi</a></li>
@@ -159,27 +161,142 @@
     </header>
     <!--Header End-->
 
+
     <!--Main start-->
     <main>
-        <section id="login" class="py-5">
+        <section id="blog">
             <div class="container">
-                <div class="row justify-content-center pt-5 mt-5">
-                    <div class="col-12 col-lg-6 text-center ">
-                        <div class="log-inner py-5">
-                            <h1 class="py-2"> Daxil ol</h1>
-                            <input type="email" name="" id="" placeholder="E-mail" required>
-                            <input type="password" name="" id="" placeholder="Şifrə" required>
-                            <a href="#" ><button class="py-2 px-5 fs-5 my-2">Daxil ol</button></a>
-                            <a href="./send-gmail.html" class="d-block py-3 fs-5">Şifrəni unutmusuz?</a>
-                            <p >Qeydiyyatdan keçməmiziz ?<a href="./signin.html"> Qeydiyyatdan keç</a></p>
+                <div class="row">
+                    <h1 class="py-4">Blog</h1>
+                    <div class="col-12">
+                        <div class="blog-inner mb-4 row">
+                            <div class="col-12 col-md-6">
+                                <div class="blog-box d-flex align-items-center py-4 ps-4">
+                                    <div class="col-3 img"><img src="./assets/img/indir.jpg" alt=""></div>
+                                    <div class="col-9 px-4">
+                                        <h3>Blog title</h3>
+                                        <p><span>by name </span><i class="fa-solid fa-ellipsis px-1"></i><span class="date">date</span> </p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                            necessitatibus voluptas natus a consectetur minus nostrum aspernatur animi
+                                            aliquid quo. Voluptates unde, voluptas nihil culpa saepe vero neque
+                                            cupiditate explicabo?</p>
+                                            <a href="./blog-detail.html" class="read py-1">Ətraflı oxu</a>
+                                            <p class="mt-4"><a href="#"><span class="icon"><i class="fa-brands fa-facebook-f"></i></span></a>
+                                                <a href="#"><span class="icon"><i class="fa-brands fa-twitter"></i></span></a>
+                                               <a href="#"> <span class="icon"><i class="fa-brands fa-pinterest-p"></i></span></a>
+                                                </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="blog-box d-flex align-items-center py-4 ps-4">
+                                    <div class="col-3 img"><img src="./assets/img/indir.jpg" alt=""></div>
+                                    <div class="col-9 px-4">
+                                        <h3>Blog title</h3>
+                                        <p><span>by name </span><i class="fa-solid fa-ellipsis px-1"></i><span class="date">date</span> </p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                            necessitatibus voluptas natus a consectetur minus nostrum aspernatur animi
+                                            aliquid quo. Voluptates unde, voluptas nihil culpa saepe vero neque
+                                            cupiditate explicabo?</p>
+                                            <a href="./blog-detail.html" class="read py-1">Ətraflı oxu</a>
+                                            <p class="mt-4"><a href="#"><span class="icon"><i class="fa-brands fa-facebook-f"></i></span></a>
+                                                <a href="#"><span class="icon"><i class="fa-brands fa-twitter"></i></span></a>
+                                               <a href="#"> <span class="icon"><i class="fa-brands fa-pinterest-p"></i></span></a>
+                                                </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="blog-box d-flex align-items-center py-4 ps-4">
+                                    <div class="col-3 img"><img src="./assets/img/indir.jpg" alt=""></div>
+                                    <div class="col-9 px-4">
+                                        <h3>Blog title</h3>
+                                        <p><span>by name </span><i class="fa-solid fa-ellipsis px-1"></i><span class="date">date</span> </p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                            necessitatibus voluptas natus a consectetur minus nostrum aspernatur animi
+                                            aliquid quo. Voluptates unde, voluptas nihil culpa saepe vero neque
+                                            cupiditate explicabo?</p>
+                                            <a href="./blog-detail.html" class="read py-1">Ətraflı oxu</a>
+                                            <p class="mt-4"><a href="#"><span class="icon"><i class="fa-brands fa-facebook-f"></i></span></a>
+                                                <a href="#"><span class="icon"><i class="fa-brands fa-twitter"></i></span></a>
+                                               <a href="#"> <span class="icon"><i class="fa-brands fa-pinterest-p"></i></span></a>
+                                                </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="blog-box d-flex align-items-center py-4 ps-4">
+                                    <div class="col-3 img"><img src="./assets/img/indir.jpg" alt=""></div>
+                                    <div class="col-9 px-4">
+                                        <h3>Blog title</h3>
+                                        <p><span>by name </span><i class="fa-solid fa-ellipsis px-1"></i><span class="date">date</span> </p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                            necessitatibus voluptas natus a consectetur minus nostrum aspernatur animi
+                                            aliquid quo. Voluptates unde, voluptas nihil culpa saepe vero neque
+                                            cupiditate explicabo?</p>
+                                            <a href="./blog-detail.html" class="read py-1">Ətraflı oxu</a>
+                                            <p class="mt-4"><a href="#"><span class="icon"><i class="fa-brands fa-facebook-f"></i></span></a>
+                                                <a href="#"><span class="icon"><i class="fa-brands fa-twitter"></i></span></a>
+                                               <a href="#"> <span class="icon"><i class="fa-brands fa-pinterest-p"></i></span></a>
+                                                </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="blog-box d-flex align-items-center py-4 ps-4">
+                                    <div class="col-3 img"><img src="./assets/img/indir.jpg" alt=""></div>
+                                    <div class="col-9 px-4">
+                                        <h3>Blog title</h3>
+                                        <p><span>by name </span><i class="fa-solid fa-ellipsis px-1"></i><span class="date">date</span> </p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                            necessitatibus voluptas natus a consectetur minus nostrum aspernatur animi
+                                            aliquid quo. Voluptates unde, voluptas nihil culpa saepe vero neque
+                                            cupiditate explicabo?</p>
+                                            <a href="./blog-detail.html" class="read py-1">Ətraflı oxu</a>
+                                            <p class="mt-4"><a href="#"><span class="icon"><i class="fa-brands fa-facebook-f"></i></span></a>
+                                                <a href="#"><span class="icon"><i class="fa-brands fa-twitter"></i></span></a>
+                                               <a href="#"> <span class="icon"><i class="fa-brands fa-pinterest-p"></i></span></a>
+                                                </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="blog-box d-flex align-items-center py-4 ps-4">
+                                    <div class="col-3 img"><img src="./assets/img/indir.jpg" alt=""></div>
+                                    <div class="col-9 px-4">
+                                        <h3>Blog title</h3>
+                                        <p><span>by name </span><i class="fa-solid fa-ellipsis px-1"></i><span class="date">date</span> </p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit
+                                            necessitatibus voluptas natus a consectetur minus nostrum aspernatur animi
+                                            aliquid quo. Voluptates unde, voluptas nihil culpa saepe vero neque
+                                            cupiditate explicabo?</p>
+                                            <a href="./blog-detail.html" class="read py-1">Ətraflı oxu</a>
+                                            <p class="mt-4"><a href="#"><span class="icon"><i class="fa-brands fa-facebook-f"></i></span></a>
+                                                <a href="#"><span class="icon"><i class="fa-brands fa-twitter"></i></span></a>
+                                               <a href="#"> <span class="icon"><i class="fa-brands fa-pinterest-p"></i></span></a>
+                                                </p>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                       
+                    </div>
+                    <div class="col-12 text-end py-2">
+                        <a href="#"><button class="py-2 px-3 fs-5 ">
+                                < Əvvəl</button></a>
+                        <a href="#"><button class="py-2 px-3 fs-5 ">Növbəti ></button></a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <!--Main end-->
+
 
     <!--Footer start-->
     <footer>
@@ -285,10 +402,7 @@
         <!--Footer bottom end-->
     </footer>
     <!--Footer end-->
-
-
     <!--Js link-->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

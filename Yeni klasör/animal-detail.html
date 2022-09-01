@@ -13,10 +13,10 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Petfinder | Giriş</title>
+    <title>Petfinder | Heyvan haqqında</title>
 </head>
 
 <body>
@@ -70,7 +70,7 @@
                                     <a href="#"> <i class="fa-solid fa-heart px-3"></i></a>
                                     <a href="#"> <i class="fa-solid fa-bars d-lg-none"></i></a>
                                 </span>
-                                <a href="./signin.html"><span class="d-none d-sm-inline">Qeydiyyat</span></a>
+                                <a href="#"><span class="d-none d-sm-inline">Qeydiyyat</span></a>
                                 <a href="./login.html"><span class="d-none d-sm-inline">Giriş</span></a>
                             </div>
                         </div>
@@ -158,28 +158,251 @@
 
     </header>
     <!--Header End-->
-
-    <!--Main start-->
+    <!--Main Start-->
     <main>
-        <section id="login" class="py-5">
-            <div class="container">
-                <div class="row justify-content-center pt-5 mt-5">
-                    <div class="col-12 col-lg-6 text-center ">
-                        <div class="log-inner py-5">
-                            <h1 class="py-2"> Daxil ol</h1>
-                            <input type="email" name="" id="" placeholder="E-mail" required>
-                            <input type="password" name="" id="" placeholder="Şifrə" required>
-                            <a href="#" ><button class="py-2 px-5 fs-5 my-2">Daxil ol</button></a>
-                            <a href="./send-gmail.html" class="d-block py-3 fs-5">Şifrəni unutmusuz?</a>
-                            <p >Qeydiyyatdan keçməmiziz ?<a href="./signin.html"> Qeydiyyatdan keç</a></p>
+        <section id="animal-detail">
+            <div class="container-fluid bg-black">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active text-center">
+                                    <img src="./assets/img/animal-detail.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item text-center">
+                                    <img src="./assets/img/animaldetai;.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item text-center">
+                                    <img src="./assets/img/cat.png" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                       
                     </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-12">
+                        <div class="left-box">
+                            <div class="animal-detail-inner py-5 px-4 my-5 ">
+                                <h1 class="text-light ">Name</h1>
+                                <p class="fs-5 mt-4">Adress</p>
+                                <p class="fs-5">Disi | Xaski | 5 yas</p>
+                                <hr>
+                                <h2 class="text-light">Haqqında</h2>
+                                <h5 class="mt-4">Evdə Təlim</h5>
+                                <p>Var</p>
+                                <h5>Sağlamlq</h5>
+                                <p>Yaxşı</p>
+                                <hr>
+                                <h2 class="text-light">Tanışlıq</h2>
+                                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+                                    voluptatum consequuntur odit,
+                                    laborum dolor ullam modi impedit natus eveniet delectus fugit at maxime totam hic
+                                    sunt
+                                    quisquam reprehenderit dolore ad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="right-boxs">
+                            <div class="like-box text-center  py-4 px-4 my-5">
+                                <span class="like-button"><i class="fa-regular fa-heart"></i></span>
+                                <p class="mb-0 pb-0 fs-4">Wish-list-ə əlave et </p>
+                            </div>
+                            <div class="shelter-box py-5 px-4 ">
+                                <div class="img d-inline p-3"> <img src="./assets/img/pet-house.png" alt=""></div>
+                                <p class="mt-3"><span class="pe-5"><i class="fa-solid fa-location"></i></span>Adress</p>
+                                <hr>
+                                <p><span class="pe-5"><i class="fa-solid fa-house-chimney-user"></i></span>Name</p>
+                                <hr>
+                                <p><span class="pe-5"><i class="fa-solid fa-envelope"></i></span>Gmail</p>
+                                <hr>
+                                <p class=" mb-0"><span class="pe-5"><i class="fa-solid fa-phone"></i></span>Phone number
+                                </p>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
+        <section id="related-animal" class="py-4 my-4">
+            <div class="container">
+                <div class="related-animal-inner px-5">
+                <div class="row justify-content-between">
+                    <h1 class="text-center text-light py-4">Ələqəli ev heyvanları</h1>
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <div class="animal-box text-center mb-3">
+                            <a href="./animal-detail.html">
+                                <div class="pet-img">
+                                    <img src="./assets/img/indir.jpg" alt="">
+                                </div>
+                                <p class="fs-3 pt-3 mb-0 ">Domino</p>
+                                <p class="py-0 mb-0">5 yaş -Afçarka- Qara</p>
+                            </a>
+                            <a href="#"><span class="bg-light like-button"><i
+                                        class="fa-regular fa-heart"></i></span></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <div class="animal-box text-center mb-3">
+                            <a href="./animal-detail.html">
+                                <div class="pet-img">
+                                    <img src="./assets/img/indir.jpg" alt="">
+                                </div>
+                                <p class="fs-3 pt-3 mb-0 ">Domino</p>
+                                <p class="py-0 mb-0">5 yaş -Afçarka- Qara</p>
+                            </a>
+                            <a href="#"><span class="bg-light like-button"><i
+                                        class="fa-regular fa-heart"></i></span></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <div class="animal-box text-center mb-3">
+                            <a href="./animal-detail.html">
+                                <div class="pet-img">
+                                    <img src="./assets/img/indir.jpg" alt="">
+                                </div>
+                                <p class="fs-3 pt-3 mb-0 ">Domino</p>
+                                <p class="py-0 mb-0">5 yaş -Afçarka- Qara</p>
+                            </a>
+                            <a href="#"><span class="bg-light like-button"><i
+                                        class="fa-regular fa-heart"></i></span></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <div class="animal-box text-center mb-3">
+                            <a href="./animal-detail.html">
+                                <div class="pet-img">
+                                    <img src="./assets/img/indir.jpg" alt="">
+                                </div>
+                                <p class="fs-3 pt-3 mb-0 ">Domino</p>
+                                <p class="py-0 mb-0">5 yaş -Afçarka- Qara</p>
+                            </a>
+                            <a href="#"><span class="bg-light like-button"><i
+                                        class="fa-regular fa-heart"></i></span></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <div class="animal-box text-center mb-3">
+                            <a href="./animal-detail.html">
+                                <div class="pet-img">
+                                    <img src="./assets/img/indir.jpg" alt="">
+                                </div>
+                                <p class="fs-3 pt-3 mb-0 ">Domino</p>
+                                <p class="py-0 mb-0">5 yaş -Afçarka- Qara</p>
+                            </a>
+                            <a href="#"><span class="bg-light like-button"><i
+                                        class="fa-regular fa-heart"></i></span></a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <div class="animal-box text-center mb-3">
+                            <a href="./animal-detail.html">
+                                <div class="pet-img">
+                                    <img src="./assets/img/indir.jpg" alt="">
+                                </div>
+                                <p class="fs-3 pt-3 mb-0 ">Domino</p>
+                                <p class="py-0 mb-0">5 yaş -Afçarka- Qara</p>
+                            </a>
+                            <a href="#"><span class="bg-light like-button"><i
+                                        class="fa-regular fa-heart"></i></span></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            
+        </section>
+        <section id="releted-article-shelter" class="py-4 my-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h1 class="text-center mb-5 fw-bold">Sığınacaqdakı digər heyvanların <br> maraqlı hekayələri</h1>
+                    <div class="col-12 col-md-6 mb-4 px-4">
+                        <a href="#">
+                            <div class="article-card text-center">
+                                <div class="big-img text-center">
+                                    <img src="./assets/img/47.jpeg" alt="pet-img">
+                                    <div class="little-img ">
+                                        <img src="./assets/img/47.jpeg" alt="pet-img">
+                                    </div>
+                                </div>
+                                <div class="article-text pt-3 mt-3 mb-0">
+                                    <h5>İt sahiblənmə haqqında məqalələr</h5>
+                                    <p>İtlərə qulluq haqqında daha çox öyrən</p>
+                                    <p class="pt-4 pb-3 mb-0 fs-5">Ətraflı oxu</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4 px-4">
+                        <a href="#">
+                            <div class="article-card text-center">
+                                <div class="big-img text-center">
+                                    <img src="./assets/img/PF2015_267_Kittens_Shelter-630.jpg" alt="pet-img">
+                                    <div class="little-img ">
+                                        <img src="./assets/img/PF2015_267_Kittens_Shelter-630.jpg" alt="pet-img">
+                                    </div>
+                                </div>
+                                <div class="article-text pt-3 mt-3 mb-0">
+                                    <h5>Pişik sahiblənmə haqqında məqalələr</h5>
+                                    <p>Pişiklərə qulluq haqqında daha çox öyrən</p>
+                                    <p class="pt-4 pb-3 mb-0 fs-5">Ətraflı oxu</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4 px-4">
+                        <a href="#">
+                            <div class="article-card text-center">
+                                <div class="big-img text-center">
+                                    <img src="./assets/img/PF2015_267_Kittens_Shelter-630.jpg" alt="pet-img">
+                                    <div class="little-img ">
+                                        <img src="./assets/img/PF2015_267_Kittens_Shelter-630.jpg" alt="pet-img">
+                                    </div>
+                                </div>
+                                <div class="article-text pt-3 mt-3 mb-0">
+                                    <h5>Pişik sahiblənmə haqqında məqalələr</h5>
+                                    <p>Pişiklərə qulluq haqqında daha çox öyrən</p>
+                                    <p class="pt-4 pb-3 mb-0 fs-5">Ətraflı oxu</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
-    <!--Main end-->
+    <!--Main End-->
 
     <!--Footer start-->
     <footer>
@@ -285,8 +508,6 @@
         <!--Footer bottom end-->
     </footer>
     <!--Footer end-->
-
-
     <!--Js link-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

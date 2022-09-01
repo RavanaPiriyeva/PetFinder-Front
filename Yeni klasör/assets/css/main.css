@@ -138,7 +138,6 @@ header nav .buttom-nav .breed-menu li {
 }
 header nav .buttom-nav .breed-menu,
 header nav .buttom-nav .resource-menu {
-  display: none;
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
@@ -516,14 +515,16 @@ footer #footer-bottom .social-media a:hover {
   background-size: cover;
   font-family: "Jura", sans-serif;
 }
-#signin input, #signin select {
+#signin input,
+#signin select {
   margin: 10px auto;
   padding: 10px;
   width: 80%;
   border-radius: 10px;
   border: 1px solid white;
 }
-#signin input:focus, #signin select:focus {
+#signin input:focus,
+#signin select:focus {
   border: 1px solid #6504b5;
   outline-color: #d4851e;
 }
@@ -570,4 +571,597 @@ footer #footer-bottom .social-media a:hover {
 #signin select option {
   color: #c71eb9;
   font-weight: 600;
+}
+
+#reset-password {
+  background-image: linear-gradient(rgba(156, 23, 182, 0.26), rgba(0, 0, 0, 0.5)), url("../img/reset-password-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  font-family: "Jura", sans-serif;
+}
+#reset-password .res-pas-inner {
+  background-color: rgba(255, 255, 255, 0.527);
+  border-radius: 10px;
+  box-shadow: 0px 0px 28px rgba(255, 255, 255, 0.404);
+}
+#reset-password .res-pas-inner input {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+}
+#reset-password .res-pas-inner input:focus {
+  border: 1px solid #6504b5;
+  outline-color: #6504b5;
+}
+#reset-password .res-pas-inner button {
+  border: 3px solid #6504b5;
+  background-color: #6504b5;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+#reset-password .res-pas-inner button:hover {
+  background-color: transparent;
+  color: #6504b5;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#reset-password .res-pas-inner h1 {
+  position: relative;
+}
+#reset-password .res-pas-inner h1::before {
+  content: "";
+  height: 3px;
+  position: absolute;
+  width: 100px;
+  bottom: -10px;
+  background-color: #6504b5;
+  border-radius: 2px;
+  left: 0;
+}
+#reset-password .res-pas-inner p {
+  font-weight: 600;
+}
+
+#send-gmail {
+  background-image: linear-gradient(rgba(156, 23, 182, 0.26), rgba(0, 0, 0, 0.5)), url("../img/reset-password-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  font-family: "Jura", sans-serif;
+}
+#send-gmail .send-gmail-inner {
+  background-color: rgba(255, 255, 255, 0.527);
+  border-radius: 10px;
+  box-shadow: 0px 0px 28px rgba(255, 255, 255, 0.404);
+}
+#send-gmail .send-gmail-inner input {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+#send-gmail .send-gmail-inner input:focus {
+  border: 1px solid #6504b5;
+  outline-color: #6504b5;
+}
+#send-gmail .send-gmail-inner button {
+  border: 3px solid #6504b5;
+  background-color: #6504b5;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+#send-gmail .send-gmail-inner button:hover {
+  background-color: transparent;
+  color: #6504b5;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#send-gmail .send-gmail-inner h1 {
+  position: relative;
+}
+#send-gmail .send-gmail-inner h1::before {
+  content: "";
+  height: 3px;
+  position: absolute;
+  width: 100px;
+  bottom: -10px;
+  background-color: #6504b5;
+  border-radius: 2px;
+  left: 0;
+}
+#send-gmail .send-gmail-inner p {
+  font-weight: 600;
+}
+
+#find-animal {
+  background-image: url("../img/pet.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Jura", sans-serif;
+  height: auto;
+}
+#find-animal button {
+  border: 3px solid #6504b5;
+  background-color: #6504b5;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+#find-animal button:hover {
+  background-color: transparent;
+  color: #6504b5;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#find-animal .search-box,
+#find-animal .sort {
+  background-color: rgba(101, 4, 181, 0.2588235294);
+  border-radius: 10px;
+  box-shadow: 0px 0px 28px rgba(80, 78, 78, 0.404);
+  overflow: hidden;
+}
+#find-animal .search-box p,
+#find-animal .sort p {
+  background-color: #6504b5;
+}
+#find-animal .search-box label,
+#find-animal .sort label {
+  font-size: 18px;
+  color: white;
+}
+#find-animal .search-box input,
+#find-animal .search-box select,
+#find-animal .sort input,
+#find-animal .sort select {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  border-bottom: 3px solid rgb(136, 136, 231);
+}
+#find-animal .search-box input:focus,
+#find-animal .search-box select:focus,
+#find-animal .sort input:focus,
+#find-animal .sort select:focus {
+  border: 1px solid #6504b5;
+  border-bottom: 3px solid #6504b5;
+  outline-color: #6504b5;
+  color: black;
+}
+#find-animal .search-box input:checked,
+#find-animal .search-box select:checked,
+#find-animal .sort input:checked,
+#find-animal .sort select:checked {
+  background-color: #6504b5;
+}
+#find-animal .search-box input,
+#find-animal .sort input {
+  width: 30px;
+  height: 30px;
+}
+#find-animal .search-box select,
+#find-animal .sort select {
+  width: 80%;
+}
+#find-animal .animal {
+  box-shadow: 0px 0px 28px rgba(122, 119, 119, 0.404);
+  background-color: rgba(101, 4, 181, 0.2588235294);
+  border-radius: 10px;
+}
+#find-animal .animal a {
+  color: #6504b5;
+}
+#find-animal .animal .animal-box {
+  color: #6504b5;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 1s;
+  position: relative;
+}
+#find-animal .animal .animal-box img {
+  transition: all 1s;
+  object-fit: cover;
+  max-height: 100%;
+}
+#find-animal .animal .animal-box .pet-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+#find-animal .animal .animal-box p {
+  background-color: white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative;
+  bottom: 25px;
+  transition: all 1s;
+}
+#find-animal .animal .animal-box:hover {
+  background-color: #6504b5;
+}
+#find-animal .animal .animal-box:hover p {
+  background-color: #6504b5;
+  color: white;
+  color: white;
+}
+#find-animal .animal .animal-box:hover img {
+  opacity: 0.5;
+}
+#find-animal .animal .animal-box span {
+  width: 45px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+#animal-detail {
+  font-family: "Jura", sans-serif;
+  background-image: linear-gradient(rgba(5, 4, 4, 0.39), rgba(0, 0, 0, 0.075)), url("../img/animal.png");
+}
+#animal-detail .carousel-item {
+  height: 50vh;
+  background-color: black;
+}
+#animal-detail .carousel-item img {
+  height: 100%;
+  object-fit: contain;
+  display: inline;
+  margin: auto;
+}
+#animal-detail .animal-detail-inner {
+  background-color: rgba(107, 6, 238, 0.5490196078);
+  color: #f7f7f7;
+  border-radius: 20px;
+  box-shadow: 0px 0px 28px grey;
+}
+#animal-detail .animal-detail-inner h1,
+#animal-detail .animal-detail-inner h2 {
+  position: relative;
+  display: inline;
+}
+#animal-detail .animal-detail-inner h1::before,
+#animal-detail .animal-detail-inner h2::before {
+  content: "";
+  height: 3px;
+  position: absolute;
+  width: 100%;
+  bottom: -5px;
+  background-color: #d4851e;
+  border-radius: 2px;
+}
+#animal-detail .like-box {
+  background-color: rgba(106, 6, 238, 0.4117647059);
+  color: #6504b5;
+  border-radius: 20px;
+  box-shadow: 0px 0px 28px grey;
+}
+#animal-detail .like-box span {
+  font-size: 50px;
+}
+#animal-detail .shelter-box {
+  position: relative;
+  background-color: rgba(147, 88, 223, 0.4039215686);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 28px grey;
+  margin: 70px 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+#animal-detail .shelter-box .img {
+  position: absolute;
+  border: 4px solid white;
+  background-color: #6504b5;
+  border-radius: 50px;
+  box-shadow: 0 0 28px grey;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%, -50%);
+}
+#animal-detail .shelter-box span {
+  color: #6504b5;
+  font-size: 25px;
+}
+
+#related-animal {
+  font-family: "Jura", sans-serif;
+}
+#related-animal .related-animal-inner {
+  box-shadow: 0px 0px 28px rgba(122, 119, 119, 0.404);
+  background-color: rgba(101, 4, 181, 0.2588235294);
+  border-radius: 10px;
+}
+#related-animal .related-animal-inner a {
+  color: #6504b5;
+}
+#related-animal .related-animal-inner .animal-box {
+  color: #6504b5;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 1s;
+  position: relative;
+}
+#related-animal .related-animal-inner .animal-box img {
+  transition: all 1s;
+  width: 100%;
+  object-fit: cover;
+}
+#related-animal .related-animal-inner .animal-box .pet-img {
+  width: 100%;
+  overflow: hidden;
+}
+#related-animal .related-animal-inner .animal-box p {
+  background-color: white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative;
+  bottom: 25px;
+  transition: all 1s;
+}
+#related-animal .related-animal-inner .animal-box:hover {
+  background-color: #6504b5;
+}
+#related-animal .related-animal-inner .animal-box:hover p {
+  background-color: #6504b5;
+  color: white;
+  color: white;
+}
+#related-animal .related-animal-inner .animal-box:hover img {
+  opacity: 0.5;
+}
+#related-animal .related-animal-inner .animal-box span {
+  width: 45px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+#releted-article-shelter {
+  font-family: "Jura", sans-serif;
+  background-color: rgb(241, 236, 236);
+}
+#releted-article-shelter h1 {
+  color: #6504b5;
+}
+#releted-article-shelter .article-card {
+  background-color: white;
+  color: #4D4751;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#releted-article-shelter .article-card .big-img {
+  position: relative;
+}
+#releted-article-shelter .article-card .big-img::before {
+  content: " ";
+  height: 50px;
+  color: white;
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 100%;
+  transition: all 1s;
+}
+#releted-article-shelter .article-card .big-img::after {
+  content: " ";
+  height: 50px;
+  color: white;
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 0%;
+  transition: all 1s;
+}
+#releted-article-shelter .article-card .big-img img {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+}
+#releted-article-shelter .article-card .little-img {
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -25px;
+  border: 6px solid white;
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 1s;
+}
+#releted-article-shelter .article-card .little-img img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  object-position: center;
+  overflow: hidden;
+}
+#releted-article-shelter .article-card .article-text p:last-child {
+  border-top: 1px solid #4D4751;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 1s;
+}
+#releted-article-shelter .article-card:hover .big-img::before {
+  content: " ";
+  height: 50px;
+  color: white;
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 0;
+}
+#releted-article-shelter .article-card:hover .big-img::after {
+  content: " ";
+  height: 50px;
+  color: white;
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 100%;
+}
+#releted-article-shelter .article-card:hover .big-img .little-img {
+  bottom: 0;
+}
+#releted-article-shelter .article-card:hover p:last-child {
+  background-color: #6504b5;
+  color: white;
+}
+
+#blog {
+  background-color: rgba(218, 186, 240, 0.212);
+}
+#blog .blog-inner {
+  background-color: rgba(255, 255, 255, 0.274);
+  box-shadow: 0 0 28px grey;
+  border-radius: 20px;
+}
+#blog .blog-inner .blog-box {
+  border-bottom: 1px solid gray;
+}
+#blog .blog-inner .blog-box .img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+#blog .blog-inner .blog-box .img img {
+  max-width: 100%;
+}
+#blog .blog-inner .blog-box a {
+  color: #6504b5;
+}
+#blog .blog-inner .blog-box .icon {
+  padding: 5px 8px;
+  margin: 0 10px;
+  color: #6504b5;
+  border: 2px solid #6504b5;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+#blog .blog-inner .blog-box .icon:hover {
+  box-shadow: 0px 0px 28px #6504b5;
+}
+#blog .blog-inner .blog-box .read {
+  position: relative;
+}
+#blog .blog-inner .blog-box .read::before {
+  position: absolute;
+  bottom: 0;
+  content: " ";
+  width: 0;
+  height: 2px;
+  background-color: peru;
+  transition: all 0.5s;
+}
+#blog .blog-inner .blog-box .read:hover::before {
+  width: 100%;
+}
+#blog .blog-inner .blog-box .date {
+  color: #6504b5;
+}
+#blog button {
+  border: 3px solid #6504b5;
+  background-color: #6504b5;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+#blog button:hover {
+  background-color: transparent;
+  color: #6504b5;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#blog-detail {
+  font-family: "Jura", sans-serif;
+}
+#blog-detail .blog-detail-innerr .box-top, #blog-detail .blog-detail-innerr .share, #blog-detail .blog-detail-innerr .rate, #blog-detail .blog-detail-innerr .comment {
+  box-shadow: 0 0 28px grey;
+  border-radius: 20px;
+}
+#blog-detail .blog-detail-innerr .img {
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  float: left;
+}
+#blog-detail .blog-detail-innerr .img img {
+  max-width: 100%;
+  float: left;
+  object-fit: cover;
+}
+#blog-detail .blog-detail-innerr .icon {
+  padding: 5px 8px;
+  margin: 0 10px;
+  color: #6504b5;
+  border: 2px solid #6504b5;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+#blog-detail .blog-detail-innerr .icon:hover {
+  box-shadow: 0px 0px 28px #6504b5;
+}
+#blog-detail .blog-detail-innerr p {
+  font-size: 22px;
+}
+#blog-detail .blog-detail-innerr .star {
+  font-size: 22px;
+  margin: 0 10px;
+  color: #6504b5;
+  cursor: pointer;
+}
+#blog-detail .blog-detail-innerr .comment input, #blog-detail .blog-detail-innerr .comment textarea {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #6504b5;
+}
+#blog-detail .blog-detail-innerr .comment input:focus, #blog-detail .blog-detail-innerr .comment textarea:focus {
+  border: 1px solid #6504b5;
+  outline-color: #6504b5;
+  box-shadow: 0 0 18px #6504b5;
+}
+#blog-detail .blog-detail-innerr .comment button {
+  border: 3px solid #6504b5;
+  background-color: #6504b5;
+  font-weight: 600;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+#blog-detail .blog-detail-innerr .comment button:hover {
+  background-color: transparent;
+  color: #6504b5;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
